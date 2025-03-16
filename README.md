@@ -17,24 +17,24 @@ Features
 
 System Architecture
 
-  The kernel is designed as a library-based system where the application and the kernel share the same address space.
+      The kernel is designed as a library-based system where the application and the kernel share the same address space.
 
-  It does not load and execute arbitrary user programs but instead runs a preloaded embedded program.
+      It does not load and execute arbitrary user programs but instead runs a preloaded embedded program.
 
-  The implementation is targeted for RISC-V processor architecture and is designed for an educational computer system with this architecture.
+      The implementation is targeted for RISC-V processor architecture and is designed for an educational computer system with this architecture.
 
-  The kernel is executed in a virtualized environment using a RISC-V emulator.
+      The kernel is executed in a virtualized environment using a RISC-V emulator.
 
 Implementation Details
 
-  Programming Languages: The kernel is implemented using C/C++ and RISC-V assembly.
+      Programming Languages: The kernel is implemented using C/C++ and RISC-V assembly.
 
-  Thread Model: Uses cooperative and preemptive multitasking.
+      Thread Model: Uses cooperative and preemptive multitasking.
 
-  Interrupt Handling: Supports hardware timer and keyboard interrupts for context switching.
+      Interrupt Handling: Supports hardware timer and keyboard interrupts for context switching.
 
-  Memory Management: Implements a simple heap allocator.
+      Memory Management: Implements a simple heap allocator.
 
 Author
 
-  Filip Verbabic
+      Filip Verbabic
