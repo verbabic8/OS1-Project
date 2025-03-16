@@ -5,15 +5,15 @@ This project aims to implement a small but fully functional operating system ker
 
 Features
 
-  Thread Management: Lightweight processes (threads) within a single application.
+    Thread Management: Lightweight processes (threads) within a single application.
 
-  Memory Allocation: Custom memory allocator for efficient resource management.
+    Memory Allocation: Custom memory allocator for efficient resource management.
 
-  Synchronization: Semaphore implementation for inter-thread communication.
+    Synchronization: Semaphore implementation for inter-thread communication.
 
-  Time-Sharing: CPU scheduling with time-slicing for fair execution.
+    Time-Sharing: CPU scheduling with time-slicing for fair execution.
 
-  Preemption: Asynchronous context switching triggered by interrupts (timer and keyboard).
+    Preemption: Asynchronous context switching triggered by interrupts (timer and keyboard).
 
 System Architecture
 
