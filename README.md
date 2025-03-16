@@ -1,7 +1,7 @@
 # OS1-Project
 Project Overview
 
-This project aims to implement a small but fully functional operating system kernel that supports multithreading with time-sharing. The kernel provides essential system functionalities such as memory allocation, thread management, semaphores, and time-sharing mechanisms. Additionally, it enables asynchronous context switching and preemption based on timer and keyboard interrupts.
+    This project aims to implement a small but fully functional operating system kernel that supports multithreading with time-sharing. The kernel provides            essential system functionalities such as memory allocation, thread management, semaphores, and time-sharing mechanisms. Additionally, it enables asynchronous      context switching and preemption based on timer and keyboard interrupts.
 
 Features
 
